@@ -1,0 +1,42 @@
+
+/* ...............
+        font-styles
+................. */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+body {font-family: 'Lobster', cursive;
+   font-family: 'Poppins', sans-serif;}
+
+/* ...............
+first-part-styles
+................. */
+
+
+.first-section {
+   
+   display: flex;
+   justify-content: space-between;
+}
+
+.left-side{
+   width: 650px;}
+   
+
+.right-side-image img{
+       width: 500px;
+       background-image: url(images/Circle\ design.svg);
+       background-repeat: no-repeat;
+   }
+.first-section h1{
+   font-size: 50px;
+}
+.link-button{ 
+padding: 10px 30px;
+background-color: rgb(233, 13, 134);
+color: white;
+font-weight: 700;
+font-size: 20px;
+border-radius: 20px;
+}
+.fas{
+   padding-left: 10px;
+}
