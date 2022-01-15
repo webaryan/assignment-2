@@ -41,7 +41,7 @@ border-radius: 20px;
    padding-left: 10px;
 }
 /* ............
-second-part-style
+second-part-styles
 ................ */
 .fas fa-star, .filled{ color: yellow;}
 .fas fa-star, .empty{
@@ -77,4 +77,49 @@ height: 500px;}
    .more-button{ 
       margin-top: 70px;
 text-align: right;
+   }
+
+
+/* ...............
+third-part-styles
+.................. */
+
+.third-part{
+   background-color: rgb(9, 1, 44);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 20px;
+   margin-top: 60px;
+   
+}
+.third-part a{
+   color: white;
+}
+.overview{
+   width: 300px;
+}
+
+.resources{
+   width: 300px;
+}
+
+.contact{
+   width: 300px;
+}
+
+   /* .............
+   fourth-part- styles
+   ................*/
+   .fourth-part{
+      height: 150px;
+      background-color: rgb(9, 1, 44);
+      text-align: center;
+     margin-top: 1px;
+     padding: 5px;
+      color: white;
+   }
+   .social-icon{
+justify-content: space-between;
    }
